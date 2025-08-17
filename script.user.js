@@ -1,15 +1,15 @@
 // ==UserScript==
-// @name         Wplace Overlay Multi-chunk By Zary + HUD
+// @name         Wplace Overlay Opensource
 // @namespace    http://tampermonkey.net/
 // @version      0.6.0
 // @description  Overlay multi-chunk para Wplace.live com HUD, seletor de overlay e botão "Ir para Overlay"
-// @author       llucarius & Zary & ChatGPT
+// @author       too many
 // @match        https://wplace.live/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=zarystore.net
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=kernel.org
 // @license      MIT
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/ZaryImortal/wplace.live-overlay-multi-chunk/refs/heads/main/overlay.js
-// @downloadURL  https://raw.githubusercontent.com/ZaryImortal/wplace.live-overlay-multi-chunk/refs/heads/main/overlay.js
+// @updateURL    https://raw.githubusercontent.com/donotfx/wplace/refs/heads/main/script.user.js
+// @downloadURL  https://raw.githubusercontent.com/donotfx/wplace/refs/heads/main/script.user.js
 // ==/UserScript==
 
 (async function () {
