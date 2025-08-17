@@ -25,7 +25,11 @@
     let overlayProgress = {};
 
     const overlayNames = [
-        "Centro",
+        "Fedora",
+        "KDE",
+        "Tux",
+        "Nix",
+        "Gentoo"
     ];
 
     const overlayCoords = [
@@ -324,7 +328,7 @@
     });
 
     function fetchData() {
-        return fetch("https://raw.githubusercontent.com/donotfx/wplace/refs/heads/main/coords.json?" + Date.now())
+        return fetch("https://raw.githubusercontent.com/donotfx/wplace/refs/heads/main/coords.js?" + Date.now())
             .then(res => res.json());
     }
 
